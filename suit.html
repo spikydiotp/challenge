@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lets play Rock, Paper, Scissors" />
+    <meta name="keywords" content="Rock, Paper, Scissors" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Game Rock Paper Scissors</title>
+    <link rel="icon" href="./assets/logo.png" />
+  </head>
+  <body>
+    <header>
+      <div class="back">
+        <h1>
+          <a href="./index.html"> </a>
+        </h1>
+      </div>
+      <div class="brand">
+        <img src="./assets/logo.png" alt="logo" class="logo" />
+        <h1>ROCK PAPER SCISSORS</h1>
+      </div>
+    </header>
+
+    <section>
+      <div class="game-area">
+        <div class="user-choice">
+          <h1 class="player-name">PLAYER 1</h1>
+          <div class="used">
+            <button class="user-tool your-tool dissap" id="b-user">
+              <img class="tool" src="./assets/batu.png" alt="batu" />
+            </button>
+            <button class="user-tool your-tool dissap" id="k-user">
+              <img class="tool" src="./assets/kertas.png" alt="kertas" />
+            </button>
+            <button class="user-tool your-tool dissap" id="g-user">
+              <img class="tool" src="./assets/gunting.png" alt="gunting" />
+            </button>
+          </div>
+        </div>
+
+        <div class="Versus-Reset">
+          <div class="boxR" id="box">
+            <h1 id="h1">VS</h1>
+          </div>
+
+          <div class="refresh">
+            <img id="refresh" src="./assets/refresh.png" />
+          </div>
+        </div>
+
+        <div class="Com-Choice">
+          <h1 class="player-name">COM</h1>
+          <div class="used">
+            <button class="user-tool dissap" id="b-com">
+              <img src="./assets/batu.png" alt="batu" />
+            </button>
+            <button class="user-tool dissap" id="k-com">
+              <img src="./assets/kertas.png" alt="kertas" />
+            </button>
+            <button class="user-tool dissap" id="g-com">
+              <img src="./assets/gunting.png" alt="gunting" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./otak.js"></script>
+  </body>
+</html>
